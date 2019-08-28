@@ -1,0 +1,130 @@
+body
+{
+    /* Background pattern from Toptal Subtle Patterns */
+background-image: url("img/tlo.png");
+margin: 0px;
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+}
+
+a:link
+{
+    color: #000000;
+    text-decoration: none;
+}
+a:visited
+{
+    color: #000000;
+    text-decoration: none;   
+}
+a:hover
+{
+    color:#666696;
+    text-decoration: underline;  
+}
+a:active
+{
+    color: #000000;
+    text-decoration: none;     
+}
+#logo
+{
+    width: 100%;
+    height: 50px;
+    background-color: #666696 ;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 0px 5px 0px;
+    border-bottom: 2px solid #ffffff;
+    text-shadow: ;
+    letter-spacing: 3px;
+    2px 2px 0 #ffffff,
+    -2px 2px 0 #ffffff,
+    -2px -2px 0 #ffffff,
+    2px -2px 0 #ffffff;
+}
+
+#container
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: #ffffff;
+    width:878px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+#spis
+{
+    width: 780px;
+    margin-left: 100px;
+}
+ol
+{
+    margin-top: 5px;
+}
+ol > li 
+{
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 5px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+ol > li > ul
+{
+    font-size: 18px;
+    text-transform: none;
+    font-weight: 400;
+    letter-spacing: 0px;
+    padding: 0px;
+    margin-top: 5px;
+    margin-left:30px;
+    list-style-type: none;
+}
+ol > li > ul >li
+{
+margin: 0px;
+}
+ol > li > ul > li:before
+{
+    color:#666696;
+    content:"⚠";
+    margin-right: 5px;
+}
+.slajd
+{
+    padding: 20px 40px;
+    text-align: justify;
+}
+h1
+{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.scrollup
+{
+    width: 64px;
+    height: 64px;
+    text-decoration: none;
+    background: url("img/up.png") no-repeat 0px 0px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display: none;
+}
+#footer
+{
+    text-align: center;
+    background-color: #666696;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    
+}
